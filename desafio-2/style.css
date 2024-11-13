@@ -1,0 +1,96 @@
+    /* GERAL */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+strong {
+    font-weight: 600;
+}
+h1 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 400;
+}
+.botao {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+}
+
+    /* Cabeçalho */
+
+.item-cabecalho a{
+    color: #112e61;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* Seção Hero */
+
+.paragrafo-hero {
+    font-size: 19px;
+}
+
+
+    /* Seção Conteúdos Gratuitos */
+
+.gratuito-h2 {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.gratuito-realce {
+    color: #7a40be;
+    font-weight: 600;
+}
+
+.gratuito-h3 {
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.gratuito-item-lista {
+    font-size: 19px;
+    text-decoration: none;
+}
+
+    /* Seção Diferenciais */
+
+.diferenciais-p {
+    font-size: 19px;
+}
+
+.diferenciais-h3 {
+    color: #005e88;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+.diferenciais-h3-empresas {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.diferenciais-h3-empresas a {
+    text-decoration: none;
+    color: #005e88;
+    font-weight: 700;
+
+}
+    /* Seção O que falam */
+.oquefalam-realce {
+    font-weight: 600;
+    }
