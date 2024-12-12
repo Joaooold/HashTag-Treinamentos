@@ -1,49 +1,87 @@
-h1,
-h2,
-h3,
-p,
-a,
-li,
-figcaption {
-  font-family: "Montserrat", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.4px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+section {
+  padding: 24px;
+}
+figure {
+  margin-bottom: 32px;
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 4.5rem;
   line-height: 1;
+  margin-bottom: 32px;
+}
+h1::first-letter {
+  font-size: 6.4rem;
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 3.2rem;
   line-height: 1.1;
+  margin-bottom: 24px;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 2.4rem;
   line-height: 1.2;
+  margin-bottom: 18px;
 }
 
 p {
-  font-size: 18px;
+  font-size: 1.8rem;
   line-height: 1.4;
+  margin-bottom: 6px;
+}
+
+div {
+  width: 200px;
+  color: #fff;
+  background-color: #035276;
+  box-shadow: inset 24px 32px 16px 4px rgba(0, 0, 0, 15%);
+  border-radius: 5px;
+  padding: 2px;
 }
 
 figcaption {
-  font-size: 12px;
+  font-size: 1.2rem;
   font-style: italic;
+  margin-left: 32px;
 }
 
 a {
   color: #c44105;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 700;
   text-decoration: double;
   text-decoration-line: underline;
+  margin-bottom: 24px;
+}
+
+a:hover {
+  color: #0588c4;
+}
+
+ul {
+  margin-bottom: 24px;
+  margin-left: 24px;
 }
 
 li {
   color: #035276;
   font-style: italic;
+  margin-bottom: 25px;
 }
 
 /* h1 span {
@@ -61,11 +99,11 @@ p strong {
 }
 
 .realce-italico {
-  color: #0588c4;
+  color: #78d4ff;
   font-style: italic;
 }
 
 .realce-underline {
-  color: #0588c4;
+  color: #78d4ff;
   text-decoration: underline;
 }
