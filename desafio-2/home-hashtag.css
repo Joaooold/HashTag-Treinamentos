@@ -17,11 +17,6 @@ body {
   line-height: 1.4;
 }
 
-.itens-header li a:hover{
-  color: #ff6b10;
-  transition: 200ms;
-}
-
 
 h1 {
   font-size: 3.5rem;
@@ -53,12 +48,40 @@ strong {
 
 /* Cabeçalho */
 
+.cabecalho {
+  position: sticky;
+  top: 0;
+  left: 0;
+  box-shadow: 0 0.2rem 0.4rem rgba(0,0,0,0.1);
+  background-color: white;
+  width: 100%;
+  padding: 1.5rem 2vw;
+}
+
 .item-lista-cabecalho a {
   color: #112e61;
   font-size: 1.4rem;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 600;
+}
+
+.itens-header li {
+  list-style: none;
+}
+
+.itens-header li a:hover{
+  color: #ff6b10;
+  transition: 200ms;
+}
+
+.outros-itens--::after {
+  content: "\25BC";
+  
+}
+
+nav {
+  display: none;
 }
 
 /* Seção Hero */
