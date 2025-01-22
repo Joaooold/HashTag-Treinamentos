@@ -140,6 +140,23 @@ a.hero-botao:hover {
   font-size: 1.9rem;
   text-decoration: none;
 }
+.secao-gratuitos-total {
+  background-image: url(Imagens/FormatoNovo/BACKGROUN-banner-02.webp);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+.imagen-gratuito-pc img{
+  width: 478px;
+  
+  height: 292px;
+}
+.imagens-treinamentos-e-programacao img{
+  width: 25px;
+
+}
 
 /* Seção Diferenciais */
 
